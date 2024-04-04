@@ -55,13 +55,14 @@ const Uji = () => {
       });
     };
 
-    fetchData(); // Panggil fungsi fetchData untuk membaca data saat komponen dimuat
+    fetchData(); 
+  
 
   }, []);
 
   const createPPM = () => {
     // Simpan nilai PPM ke Firebase
-    set(ref(db, `/ppm`), { // Ubah referensi sesuai struktur data Anda
+    set(ref(db, `/ppm`), { 
       ppm: ppm,
     });
     setPpm("");
@@ -88,28 +89,28 @@ const Uji = () => {
         <div className="flex">
             <p>suhu Udara :</p>
         {suhuUdara.map((value, index) => (
-          <p key={index}>{value}</p> // Tambahkan key untuk setiap elemen dalam array
+          <p key={index}>{value}</p>
         ))}
 
         </div>
         <div className="flex">
             <p>suhu Air :</p>
         {suhuAir.map((value, index) => (
-          <p key={index}>{value}</p> // Tambahkan key untuk setiap elemen dalam array
+          <p key={index}>{value}</p>
         ))}
 
         </div>
         <div className="flex">
             <p>Kelembapan :</p>
         {kelembapan.map((value, index) => (
-          <p key={index}>{value}</p> // Tambahkan key untuk setiap elemen dalam array
+          <p key={index}>{value}</p>
         ))}
 
         </div>
         <div className="flex">
             <p>Nutiris :</p>
         {nutrisi.map((value, index) => (
-          <p key={index}>{value}</p> // Tambahkan key untuk setiap elemen dalam array
+          <p key={index}>{value}</p> 
         ))}
 
         </div>
