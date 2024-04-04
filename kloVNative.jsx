@@ -55,13 +55,12 @@ const Uji = () => {
       });
     };
 
-    fetchData(); // Panggil fungsi fetchData untuk membaca data saat komponen dimuat
+    fetchData(); 
   }, []);
 
   const createPPM = () => {
     // Simpan nilai PPM ke Firebase
     set(ref(db, `/ppm`), {
-      // Ubah referensi sesuai struktur data Anda
       ppm: ppm,
     });
     setPpm("");
