@@ -4,7 +4,7 @@ import { getDatabase } from "firebase/database";
 
 // Konfigurasi Firebase
 const firebaseConfig = {
-  apiKey: "apiKey",
+  apiKey: "apiKey", 
   authDomain: "auth",
   databaseURL: "dbUrl",
   projectId: "pId",
