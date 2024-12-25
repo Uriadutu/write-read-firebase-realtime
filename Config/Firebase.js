@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database"; 
-
+   
 
 // Konfigurasi Firebase
 const firebaseConfig = {
