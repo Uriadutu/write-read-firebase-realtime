@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { db } from "../Config/Firebase";
 import { set, ref, onValue } from "firebase/database";
-import { db } from "../Config/Firebase";
-import { set, ref, onValue } from "firebase/database";
   
 const Uji = () => {
   const [ppm, setPpm] = useState("");
