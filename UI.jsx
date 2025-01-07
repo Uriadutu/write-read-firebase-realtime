@@ -5,7 +5,7 @@ import { set, ref, onValue } from "firebase/database";
 const Uji = () => {
   const [ppm, setPpm] = useState(""); 
   const [suhuUdara, setSuhuUdara] = useState([]);
-  const [suhuAir, setSuhuAir] = useState([]);  
+  const [suhuAir, setSuhuAir] = useState([]);
   const [kelembapan, setKelemapan] = useState([]);
   const [nutrisi, setNutrisi] = useState([]);
   
